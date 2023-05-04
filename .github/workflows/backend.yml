@@ -107,9 +107,9 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ghcr.io/collective/test-project-backend
+            ghcr.io/davisagli/test-project-backend
           labels: |
-            org.label-schema.docker.cmd=docker run -d -p 8080:8080 ghcr.io/collective/test-project-backend:latest
+            org.label-schema.docker.cmd=docker run -d -p 8080:8080 ghcr.io/davisagli/test-project-backend:latest
           flavor:
             latest=false
           tags: |
