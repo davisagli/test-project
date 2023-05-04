@@ -1,0 +1,6 @@
+graft src/test_project
+graft docs
+include *.rst
+include *.md
+include *.cfg
+global-exclude *.pyc
